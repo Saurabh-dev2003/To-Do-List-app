@@ -118,7 +118,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
     const handleAddTask = (e) => {
-        e.preventDefault(); refresh
+        e.preventDefault(); 
         addTask(null, false, true);  
     };
 
@@ -172,4 +172,5 @@ const runconfetti = () => {
         spread: 120,
         startVelocity: 45,
     });
+
 };
